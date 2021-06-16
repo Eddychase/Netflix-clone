@@ -19,6 +19,7 @@ function HomeScreen() {
             < Row title='Action Movies' fetchUrl={requests.fetchActionMovies} />
             < Row title='Comedy Movies' fetchUrl={requests.fetchComedyMovies} />
             < Row title='Horror Movies' fetchUrl={requests.fetchHorrorMovies} />
+            < Row title='Documentaries' fetchUrl={requests.fetchDocumentaries} />
 
 
 
