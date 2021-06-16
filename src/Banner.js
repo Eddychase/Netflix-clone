@@ -17,13 +17,13 @@ function Banner() {
             return request;
         }
 
-        fetchData()
-    }, [])
-
-    console.log(movie);
+        fetchData();
+    }, []);
 
 
-    function Truncate(string, n) {
+
+
+    function truncate(string, n) {
         return string?.length > n ? string.substr(0, n - 1) + '...' : string;
     }
     return (
@@ -44,7 +44,7 @@ function Banner() {
                     </button>
                 </div>
                 <h1 className='banner_description'>
-                    {Truncate(movie?.overview, 150)}
+                    {truncate(movie?.overview, 150)}
                 </h1>
             </div>
             <div className="banner_fadeBottom" />
