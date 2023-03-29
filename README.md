@@ -2,7 +2,7 @@
 
 This project is a clone of the Netflix web application, built using React and the TMDB API. It allows users to browse popular movies and TV shows, search for specific titles, and view details about each title including a trailer and user ratings.
 
-![Netflix Clone Screenshot](https://i.imgur.com/Z9Oo4JC.png)
+![Netflix Clone Screenshot](https://raw.githubusercontent.com/Eddychase/Netflix-clone/master/screenshots/netflix-clone.png)
 
 ## Features
 
